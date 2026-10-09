@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aanya AI Assistant</title>
+    <meta name="description" content="A real-time, voice-to-voice AI assistant web application powered by Gemini Live API with a witty, sassy, and playful persona." />
+    <meta property="og:title" content="Aanya AI Assistant" />
+    <meta property="og:description" content="A real-time, voice-to-voice AI assistant web application powered by Gemini Live API with a witty, sassy, and playful persona." />
+    <link rel="preload" as="image" href="/src/assets/zoya-avatar.jpg" fetchpriority="high" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #050508;
+      }
+      body {
+        background: #050508 url("/src/assets/zoya-avatar.jpg") no-repeat center 25% / cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
